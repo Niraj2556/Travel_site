@@ -1,0 +1,298 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    /* background-color: rgba(0, 0, 0, 0.767); */
+    background-color:#143d59;
+    /* background-color: #6dd47e; */
+    /* background-color: beige; */
+}
+#hero{
+    background-image: url(front_pic.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navi nav{
+    padding-top: 5px;
+    text-align: center;
+    background-color: rgb(220, 81, 30);
+    height: 40px;
+    /* background: linear-gradient(rgb(220, 81, 30),#fff,green); */
+    /* float: right; */
+}
+.navi nav a{
+    font-size: 27px;
+    text-decoration: none;
+    margin-right:20px;
+    color: rgb(255, 255, 255);
+    /* font-weight: bold; */
+}
+.navi nav a:hover{
+    text-decoration:underline;
+    color: #f7ff12;
+}
+.navi nav:hover{
+    background-color: #6d0000;
+}
+
+.text{
+    margin-left: 3%;
+    font-family: 'Yatra One', cursive;
+    /* font-family: monospace; */
+    font-size: 130px;
+     margin-top: 9%;
+}
+.text p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    height:fit-content;
+    width:fit-content;
+    line-height: 160px;
+    font-size: 220px;
+    color: transparent;
+    background: url(Pngtree.jpg);
+    -webkit-background-clip:text;
+    -webkit-text-stroke: 0.5px rgb(0, 0, 0);
+    animation: back 5s linear infinite;
+    background-position: 0 0;
+    margin-left: 7%;
+    margin-top: 1%;
+}
+@keyframes back{
+    100%{
+        background-position: 200px 0;
+    }
+}
+
+.work_text p{
+    /* margin: 0%; */
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    height:30px;
+    font-size: 26px;
+    color: #fff;
+}
+.grid_top{
+    display: flex;
+    margin-left: 15%;
+    margin-top: 0;
+}
+.grid_down{
+    display: flex;
+    margin-left: 15%;
+    margin-top: 1%;
+}
+.first img, .second img, .third img, .fourth img {
+    width: 220px;
+    height: 130px;
+    border-radius: 10px 10px 0px 0px;
+}
+.first_ful ,.second_ful,.third_ful , .fourth_ful{
+    border: 1px solid rgb(0, 0, 0);
+    width: 220px;
+    height: 295px;
+    margin-right: 20px;
+    transition: 0.3s ease-in-out;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+.first_ful:hover{
+    scale: 1.05;
+    transition: 0.5s ease-in-out;
+    box-shadow: 0 0 30px 0 rgb(71, 114, 255);
+}
+.second_ful:hover{
+    scale: 1.05;
+    transition: 0.5s ease-in-out;
+    box-shadow: 0 0 30px 0 rgb(103, 135, 241);
+}
+.third_ful:hover{
+    scale: 1.05;
+    transition: 0.5s ease-in-out;
+    box-shadow: 0 0 30px 0 rgb(103, 135, 241);
+}
+.fourth_ful:hover{
+    scale: 1.05;
+    transition: 0.5s ease-in-out;
+    box-shadow: 0 0 30px 0 rgb(103, 135, 241);
+}
+
+.first_ful p,.second_ful p,.third_ful p, .fourth_ful p{
+    text-align: center;
+    text-decoration: underline;
+    /* background-color: aqua; */
+}
+
+
+
+.under_text{
+    font-size: 14px;
+    color:#070707;
+}
+
+.city_name{
+    background-color: #143d59;
+    color: #fff;
+}
+
+
+.about_head{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+.about_text{
+    font-family:'Times New Roman', Times, serif;
+    background-color: #2e6f8f;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background: linear-gradient(#2e6f8f,rgb(77, 184, 255));
+}
+
+.about_bottom{
+    width: 70%;
+    height:95vh;
+    position: absolute;
+}
+.about_bottom img{
+    width: 70%;
+    height:95vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about_write{
+    margin-left: 50%;
+   position: absolute;
+}
+.about_write h1{
+    text-align: center;
+    font-family: monospace;
+    color: #fff;
+    background: linear-gradient(#2e6f8f , black);
+    /* font-size: 20px; */
+    
+}
+
+.about_write p{
+    font-family: monospace;
+    color: #fff;
+    font-size: 18px;
+}
+.thanks{
+    font-size: 70px;
+    color:wheat ;
+    margin-left: 12%;
+}
+
+/* contact */
+#contact{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/pexels-thiago-japyassu-1069798.jpg);
+    background-repeat:no-repeat;
+}
+#imge img{
+    height: 20vh;
+    /* display: flex; */
+    margin-left: 160px;
+    margin-bottom: 20px;
+    /* padding-top: 100px; */
+    /* padding-left: 30px; */
+    margin-top: 120px;
+    /* margin-right: 100px; */
+}
+.insta_d h2{
+text-align: center;
+font-size: 40px;
+color: rgb(144, 158, 170);
+margin-top: -600px;
+}
+#insta_n h2{
+    color: aliceblue;
+    text-align: center;
+}
+#imge{
+    display: flex;
+    /* position:relative; */
+}
+#cont pre{
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.comming_soon{
+    display: inline-flex;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+.inside_come{
+    margin-top: 20%;
+    display: inline-flex;
+    margin-left: 16%;
+
+}
+
+.come_text{
+    background: #044667;
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: #fff;
+    margin-left:40%;
+    border-style:outset;
+    border-color: #001aff;
+}
+.come_text1{
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 6%;
+    margin-left: 6%;
+}
+
+.back_home{
+    position: absolute;
+    float: left;
+    margin-top: -20%;
+    margin-left: -10.5%;
+    
+}
+.back_come{
+    position: absolute;
+    margin-top: -47%;
+    margin-left: 50px;
+}
+.about_about{
+    position: absolute;
+    margin-top: -44%;
+    margin-left: 50px; 
+}
+.cotact_about{
+    position: absolute;
+    margin-top: -44%;
+    margin-left: 50px; 
+}
+.back_home img,.back_come img ,.about_about img,.cotact_about img{
+    width: 30px;
+    height:30px;
+    /* background-color: #ffebd8; */
+    border: 5px solid;
+    border-radius: 85px;
+    border-style:outset;
+    border-color: #fff;
+    background: linear-gradient(rgb(96, 61, 253),rgb(255, 8, 8),rgb(97, 120, 255));
+}
+

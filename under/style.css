@@ -1,0 +1,23 @@
+h1{
+    font-family: 'Yatra One', cursive;
+    color: rgb(23, 24, 23);
+    text-align: center;
+    font-size: 40px;
+}
+#pic_1 img{
+    height: 60vh;
+    width: 100%;
+}
+p{
+    font-size: 20px;
+}
+.imgrj{
+    display: flex;
+    height: 40vh;
+    margin-left: 10px;
+
+}
+.imgrj img{
+    width: 60%;
+    margin-right: 8px;
+}
